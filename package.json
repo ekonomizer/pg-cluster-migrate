@@ -1,0 +1,36 @@
+{
+  "name": "pg-cluster-migrate",
+  "version": "1.0.0",
+  "description": "Simple module for create/drop/migrate postgresql cluster for node v >=7 with 1 dependencies(pg-cluster). If you use pg-cluster for building pg cluster, and connecting to pg, pg-cluster-migrate your choice.",
+  "main": "./src/Migrate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekonomizer/pg-cluster-migrate.git"
+  },
+  "keywords": [
+    "node",
+    "pg",
+    "migrate",
+    "drop",
+    "create",
+    "cluster",
+    "postgresql",
+    "npm",
+    "module"
+  ],
+  "author": "ekonomizer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekonomizer/pg-cluster-migrate/issues"
+  },
+  "homepage": "https://github.com/ekonomizer/pg-cluster-migrate#readme",
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "dependencies": {
+    "pg-cluster": "1.0.5"
+  }
+}

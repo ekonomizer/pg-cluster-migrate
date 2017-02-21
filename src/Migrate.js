@@ -1,11 +1,12 @@
 const fs = require('fs');
 const path = require("path");
 const Db = require("pg-cluster");
+const log = {debug: console.log, info: console.log, warn: console.log, error: console.log};
 
 class Migrate {
-    constructor(withPostgres = true, cfg, log, migrationsPath) {
+    constructor(withPostgres = true, cfg, customLog, migrationsPath) {
         global.withPostgres = withPostgres;
-        this.log = log;
+        this.log = customLog || log;
         this.cfg = cfg;
         this.migrationsPath = migrationsPath;
 

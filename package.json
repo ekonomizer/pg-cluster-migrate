@@ -1,6 +1,6 @@
 {
   "name": "pg-cluster-migrate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple module for create/drop/migrate postgresql cluster for node v >=7 with 1 dependencies(pg-cluster). If you use pg-cluster for building pg cluster, and connecting to pg, pg-cluster-migrate your choice.",
   "main": "./src/Migrate.js",
   "scripts": {
@@ -31,6 +31,6 @@
     "node": ">=7.0.0"
   },
   "dependencies": {
-    "pg-cluster": "1.0.5"
+    "pg-cluster": "1.0.6"
   }
 }
